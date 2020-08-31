@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1387</width>
+    <height>621</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="mouseTracking">
+   <bool>true</bool>
+  </property>
+  <property name="focusPolicy">
+   <enum>Qt::ClickFocus</enum>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1001</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QTextEdit" name="textEdit">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>0</y>
+       <width>521</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::RightToLeft</enum>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:24pt; font-weight:600; color:#020202;&quot;&gt;Welcome to DataXtreme&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="placeholderText">
+      <string>Welcome to *software name*</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>80</y>
+      <width>111</width>
+      <height>511</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="Dash_personal_detail">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>91</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Personal Details</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Dash_com_deatail">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>80</y>
+       <width>91</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Company Details</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>130</y>
+       <width>91</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>PushButton</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>180</y>
+       <width>91</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>PushButton</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Dash_setting">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>230</y>
+       <width>91</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Settings </string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Dash_Log_out">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>280</y>
+       <width>91</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Log Out</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="group_frame">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>100</y>
+      <width>1011</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="group_creation_label">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>40</y>
+       <width>351</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>16</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Group Creation</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="group_name_label">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>100</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Group Name</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>100</y>
+       <width>711</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+    </widget>
+    <widget class="QLabel" name="head_cat_label">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>180</y>
+       <width>181</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Head Category</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="head_catagory_combo">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>180</y>
+       <width>711</width>
+       <height>41</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="head_cat_label_3">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>250</y>
+       <width>181</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Under Group</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="Uunder_group_combo">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>250</y>
+       <width>711</width>
+       <height>41</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="type_combo">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>330</y>
+       <width>711</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <item>
+      <property name="text">
+       <string>Bank Account</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Bank OD A/c</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Branch/Division</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Capital Account</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Cash-in-Hand Account</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Cash Account</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Contra Asset Account</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Contra Liability Account</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Current Assets</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Current Liabilities</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Deposits (Asset)</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Direct Expenses</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Direct Incomes</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Duties and Taxes</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Fixed Asset</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Indirect Expenses</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Indirect Incomes</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Investments</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Loans and Advances (Asset)</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Loans (Liabilities)</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Miscellaneous Expenses (Asset)</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Provisions</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Purchase Account</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Profit &amp;amp; Loss Account</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Reserves &amp;amp; Surplus</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Retained Earnings</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Sales Account</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Secured Loans</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Stock-in-Hand</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Sundry Creditors</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Sundry Debtors</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Suspense Account</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Unsecured Loans</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Intangible Fixed Asset</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>410</y>
+       <width>241</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Create</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
